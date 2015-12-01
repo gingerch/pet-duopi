@@ -1,0 +1,290 @@
+@import url(http://fonts.googleapis.com/css?family=Roboto:300,400,700,900);
+/* Edited by Ginger */
+/* edited by Alvin 2015/3/25 */
+
+/*
+blue: #6ce;
+green: #9c3;
+red: #e66;
+orange: #f90;
+*/
+
+/* common */
+body{font-size:15px;line-height:1.6;font-family:"Roboto","ヒラギノ角ゴ Pro W3",arial,sans-serif;background-color:#fff;-webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;max-width:100%;}
+a{color:#6ce;}
+a:hover{color:#5bd;text-decoration:none;}
+a:focus{outline:0;text-decoration:none;}
+.container{padding-left:25px;padding-right:25px;}
+.index h2{text-align:center;margin:0 0 30px 0;transition:1s;opacity:0;position:relative;left:20px;}
+.index .open h2{opacity:1;left:0;}
+/*.index .box{padding:50px 0;}*/
+h4{font-weight:700;}
+
+ul, ol{list-style:none;padding:0;}
+.space-1{margin-bottom:8px;}
+.space-2{margin-bottom:16px;}
+.space-3{margin-bottom:24px;}
+.space-4{margin-bottom:32px;}
+.space-5{margin-bottom:40px;}
+.space-6{margin-bottom:48px;}
+.space-top-1{margin-top:8px;}
+.space-top-2{margin-top:16px;}
+.space-top-3{margin-top:24px;}
+.space-top-4{margin-top:32px;}
+.space-top-5{margin-top:40px;}
+.space-top-6{margin-top:48px;}
+.hr-text{display:block;height:1px;width:100%;background:linear-gradient(to right, transparent, #bbb, transparent);text-align:center;margin:60px 0;}
+.hr-text b{padding:0 16px;position:relative;bottom:1em;font-size:12px;font-weight:400;color:#bbb;background-color: #fff;}
+.img-gray{filter:grayscale(1);-webkit-filter:grayscale(1);transition:.5s;}
+.img-gray:hover{filter:none;-webkit-filter:none;}
+
+
+
+
+.icon-wrap{width:1000px;
+    animation:mymove 6s ease-in-out infinite alternate;
+    -webkit-animation:mymove 6s ease-in-out infinite alternate;}
+.icon-box .fa{font-size:70px;color:#6ce;width:130px;height:130px;line-height:130px;float:left;position:relative;left:-4px;top:-4px;}
+#service h4{font-size:24px;color:#6ce;}
+#service p{color:#666;}
+@keyframes mymove {
+    0%   {margin-left: 0;}
+    10%  {margin-left: 0;}
+    44%  {margin-left: -131px;}
+    45%  {margin-left: -130px;}
+    55%  {margin-left: -130px;}
+    89%  {margin-left: -261px;}
+    90%  {margin-left: -260px;}
+    100% {margin-left: -260px;}
+}
+@-webkit-keyframes mymove {
+    0%   {margin-left: 0;}
+    10%  {margin-left: 0;}
+    44%  {margin-left: -131px;}
+    45%  {margin-left: -130px;}
+    55%  {margin-left: -130px;}
+    89%  {margin-left: -261px;}
+    90%  {margin-left: -260px;}
+    100% {margin-left: -260px;}
+}
+
+/*header*/
+
+#header{position:relative;}
+
+
+.position-logo{position:absolute;top:0%;left:0%;}
+
+.position-circle{position:absolute;top:38%;left:18%;}
+
+.position-center-date{position:absolute;top:38%;width:46%;}
+.primary-date{font-size:25px;font-weight:700;color:#fff;}
+.position-center{position:absolute;top:50%;width:100%;transform:translateY(-50%);}
+.primary-title{font-size:60px;color:#fff;font-weight:700;}
+.primary-title span{font-size:120%;margin-left:10px;}
+
+.btn-cta-header{
+  height:60px;
+  text-align:center;
+  margin:0 auto;
+  padding:0 15px;
+  line-height:60px;
+  background-color:#FE7070;
+  color:#fff;
+  border-radius:4px;
+  font-size:25px;
+  font-weight:700;
+}
+.position-cta-header{position:absolute;bottom:5%;left:50%;transform:translateX(-50%);}
+@media(max-width:768px){.position-circle{visibility:hidden;}}
+@media (max-width:768px){.primary-date{font-size:12px;}}
+@media (max-width:768px){.primary-title{font-size:25px;}}
+@media (max-width:768px){.btn-cta-header{font-size:9px;}}
+
+#header{position:relative;}
+.title{position:relative;}
+
+/*獲獎名單*/
+
+#name h2{color:#FE7070;font-weight:700;margin-top:10px;}
+#name h4{color:#FE7070;}
+.name-detail{color:#737373;}
+#name .col-xs-12{
+ 
+  margin:10px;
+}
+
+#name .name-img{
+  float:left;
+  width: 250px;
+
+}
+
+#name .list{
+  
+  float:left;
+}
+
+
+
+/*寫出毛小孩的心聲，抽毛小孩的獎品*/
+#gift{text-align:center;}
+#gift h2{color:#FE7070;font-weight:700;margin-top:10px }
+#gift img{margin:0 auto}
+.btn-cta-gift{ 
+  width:200px;
+  height:40px;
+  text-align:center;margin:15px auto;
+  line-height:40px;
+  background-color:#FE7070;
+  color:#fff;
+  border-radius:4px;
+  margin-top:20px;}
+
+@media(max-width:600px){
+    #gift h2{font-size:25px;}
+}
+
+/*為什麼要OS啦*/
+#whyos{background-color:#F5F5F5;}
+#whyos h2{font-weight:700;color:#FE7070;}
+#whyos .os-photo{width:80%;margin:0 auto;}
+
+#whyos .comment{color:#878787;}
+#whyos .os-photo-text span{color:#FE7070;}
+
+.os-photo-text p {text-align: left;}
+.btn-cta-os{width:200px;height:60px;text-align:center;margin:0 auto;line-height:60px;background-color:#FE7070;color:#fff;border-radius:4px;}
+.btn-cta-os:hover{color:#fff;background-color:#ED6969;}
+
+
+@media(max-width:600px){
+    #whyos h2{ font-size:25px;}
+}
+
+/*我也要OS，怎麼參加呢？*/
+#join{background-color:#fff;}
+.joincard{height:500px;
+      padding:15px;
+      margin-bottom:10px;
+      background: #F5F5F5;
+      box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+      border-radius: 5px;
+  }
+.joincard{text-align:center;}
+.award-first-01{position:fixed;bottom:10px;}
+.joincard h4{color:#FE7070;}
+.joincard p{text-align:left;color:#333;}
+#join h2{color:#FE7070; font-weight:700;margin-top:15px;}
+#join h4{font-size:20px;color:#FE7070;}
+
+#join a{color:#FE7070;}
+#join h5{font-weight:bold;color:#FE7070;font-size:18px;}
+#join .col-xs-12 img{margin:0 auto;}
+#join .col-xs-12 p{text-align:center;}
+
+.btn-cta-join-01{ width:200px;height:40px;text-align:center;margin:0 auto;line-height:40px;background-color:#FE7070;color:#fff;border-radius:4px;margin-top:20px;}
+.btn-cta-join-02{ width:200px;height:40px;text-align:center;margin:0 auto;line-height:40px;background-color:#FE7070;color:#fff;border-radius:4px;margin-top:115px;}
+.btn-cta-join-03{ width:200px;height:40px;text-align:center;margin:0 auto;line-height:40px;background-color:#FE7070;color:#fff;border-radius:4px;margin-top:0px;}
+
+.text-underline{text-decoration:underline;}
+
+@media (max-width:768px){
+#join h2{font-size:25px;}
+#join h4{font-size:18px;}
+#join p{font-size:14px;}
+
+
+
+}
+/* 抽禮 */
+#award{background-color:#fff;}
+#award h2{color:#FE7070; margin:50px 0px 0 0;}
+.awardcard{height:550px;
+      padding:15px;
+      padding-top:60px;
+      margin-bottom:10px;
+      background: #fff;
+      box-shadow: 0px 2px 4px 0px rgba(0,0,0,0.50);
+      border-radius: 5px;
+  }
+.awardcard h4{color:#FE7070;}
+.awardcard h5{color:#FE7070;font-weight:700;}
+.awardcard a{color:#333;}
+.awardcard img{margin: 0 auto;}
+.img-height{height:120px;}
+
+.sharetext{font-size:14px;font-weight:700;color:#FE7070;}
+
+.award-first-01{position:relative;top:60px;}
+.btn-cta-award{ width:200px;height:40px;text-align:center;margin:0 auto;line-height:40px;background-color:#FE7070;color:#fff;border-radius:4px;margin-top:20px;}
+
+/*什麼是多拍即合*/
+#duopi h2{colod:#FE7070;margin:30px;}
+#duopi .film{text-align:center;}
+#duopi{background-color:#fff;}
+.btn-cta-film{width:200px;height:60px;text-align:center;margin:20px auto;line-height:60px;background-color:#FE7070;color:#fff;border-radius:4px;}
+
+
+@media (max-width:400px) {
+
+}
+
+
+/*贊助夥伴*/
+#partner h2{color:#FE7070;margin:20px auto}
+#partner ul{width:80%;margin:0 auto;}
+#partner li{text-align:center;}
+#partner .text-decoration{
+  color:#FE7070;
+  text-decoration:underline;}
+
+/*合作粉絲團*/
+#fanpages{background-color:#fff;}
+#fanpages h2{color:#FE7070;margin:20px auto}
+#fanpages ul{text-align:center;}
+#fanpages img{margin:25px;}
+
+
+
+/* footer */
+#contact{background-color:#555;color:#eee;text-align:center;position:relative;}
+.social-link{margin-bottom:5px;}
+.social-link ul{display: table;list-style: none;margin: 0 auto;padding: 0;}
+.social-link ul li {float:left; border-right: 1px solid rgba(255,255,255,.5);margin-right: 10px;padding-right: 10px;line-height:1;}
+.social-link ul li:last-child{border-right:none;padding-right:0;margin-right: 0;}
+.social-link ul li i {margin-right: 5px;font-size:15px;color:rgba(255,255,255,.75);}
+#contact .row > div{margin-bottom:40px;}
+#contact .row div:last-child{border-top: 1px solid rgba(255,255,255,.12);border-bottom: 1px solid rgba(255,255,255,.12);padding:10px 0 20px;margin:0;}
+#contact h3 .fa{margin-right:10px;}
+#contact a{color:#eee;}
+#contact .note{position:absolute;left:10%;bottom:10px;width:80%;color:#bbb;font-size:13px;}
+#contact p {text-align:center;color:#fff;padding-top:10px;}
+#contact ul{text-align: left;padding-top: 50px;}
+#contact img{margin:20px;}
+
+/*Footer*/
+footer{padding: 10px 0;text-align:center;color:#ccc;background-color:#444;}
+address{font-size:9px;padding-top:10px;}
+
+
+@media (min-width:1200px) {
+	
+	#welfare .col-lg-6{margin-left: 12.5%;}
+}
+@media (min-width:1024px) {
+	
+	.logo{top:100px;}
+	.job-title, .job-title i{font-size:30px;}
+	.job-title b{bottom:6px;}
+}
+@media (max-width:600px) {
+
+}
+@media (max-width:400px) {
+	.logo{margin-left:-125px;}
+	.logo img{max-width:250px;}
+	#people ul{padding-left:0;}
+    
+}
